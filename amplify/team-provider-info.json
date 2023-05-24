@@ -1,0 +1,30 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifynodejs-dev-180112-authRole",
+      "UnauthRoleArn": "arn:aws:iam::336722522156:role/amplify-amplifynodejs-dev-180112-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::336722522156:role/amplify-amplifynodejs-dev-180112-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-amplifynodejs-dev-180112-deployment",
+      "UnauthRoleName": "amplify-amplifynodejs-dev-180112-unauthRole",
+      "StackName": "amplify-amplifynodejs-dev-180112",
+      "StackId": "arn:aws:cloudformation:us-east-1:336722522156:stack/amplify-amplifynodejs-dev-180112/373804b0-fa4c-11ed-8991-0ec26d7c97db",
+      "AmplifyAppId": "d39a59yhv48agd",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-amplifynodejs-dev-180112-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "function": {
+        "AmplifyNodeJS": {
+          "deploymentBucketName": "amplify-amplifynodejs-dev-180112-deployment",
+          "s3Key": "amplify-builds/AmplifyNodeJS-303165414e4269457379-build.zip"
+        }
+      },
+      "auth": {
+        "amplifynodejs": {}
+      },
+      "api": {
+        "AndroidNodeJS": {}
+      }
+    }
+  }
+}
