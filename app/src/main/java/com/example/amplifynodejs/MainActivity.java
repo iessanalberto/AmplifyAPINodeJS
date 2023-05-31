@@ -41,7 +41,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void getTodo() {
         RestOptions options = RestOptions.builder()
-                .addPath("/documents")
+                //.addPath("/documents")
+                .addPath("/users") //añado la ruta de mi api y creo la función lambda y le añado el rol de la función lambda de documents
                 .build();
 
         RestOperation operation = Amplify.API.get(options,
