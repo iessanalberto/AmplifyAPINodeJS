@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">AmplifyNodeJS</string>
+    <string name="username">enter email</string>
+    <string name="email">enter username</string>
+    <string name="password">enter password</string>
+    <string name="signupbtn">Sign Up</string>
+    <string name="signinbtn">Sign In</string>
 </resources>
